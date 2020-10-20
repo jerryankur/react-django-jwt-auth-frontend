@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import LoginForm from './components/LoginForm';
 import SignupForm from './components/SignupForm';
 import './App.css';
+import {HOST} from "./Host";
 
 class App extends Component {
   constructor(props) {
@@ -16,7 +17,7 @@ class App extends Component {
 
   componentDidMount() {
     if (this.state.logged_in) {
-      fetch('http://localhost:8000/account/current-user/', {
+      fetch(HOST + 'account/current-user/', {
         headers: {
           Authorization: `JWT ${localStorage.getItem('token')}`
         }
@@ -30,7 +31,7 @@ class App extends Component {
 
   handle_login = (e, data) => {
     e.preventDefault();
-    fetch('http://localhost:8000/account/user-auth/', {
+    fetch(HOST + 'account/user-auth/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -50,7 +51,7 @@ class App extends Component {
 
   handle_signup = (e, data) => {
     e.preventDefault();
-    fetch('http://localhost:8000/account/users/', {
+    fetch(HOST + 'account/users/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
