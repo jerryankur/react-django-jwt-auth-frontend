@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-django-jwt-auth-frontend/static/css/main.5f361e03.chunk.css",
-    "main.js": "/react-django-jwt-auth-frontend/static/js/main.3300540d.chunk.js",
-    "main.js.map": "/react-django-jwt-auth-frontend/static/js/main.3300540d.chunk.js.map",
+    "main.js": "/react-django-jwt-auth-frontend/static/js/main.8c99acb6.chunk.js",
+    "main.js.map": "/react-django-jwt-auth-frontend/static/js/main.8c99acb6.chunk.js.map",
     "runtime-main.js": "/react-django-jwt-auth-frontend/static/js/runtime-main.bf16c9c4.js",
     "runtime-main.js.map": "/react-django-jwt-auth-frontend/static/js/runtime-main.bf16c9c4.js.map",
     "static/js/2.0804bf51.chunk.js": "/react-django-jwt-auth-frontend/static/js/2.0804bf51.chunk.js",
     "static/js/2.0804bf51.chunk.js.map": "/react-django-jwt-auth-frontend/static/js/2.0804bf51.chunk.js.map",
     "index.html": "/react-django-jwt-auth-frontend/index.html",
-    "precache-manifest.cbb626a012ccc71e7dd5790934467179.js": "/react-django-jwt-auth-frontend/precache-manifest.cbb626a012ccc71e7dd5790934467179.js",
+    "precache-manifest.64c65cf5d2dbc14c35c7da60e280ef55.js": "/react-django-jwt-auth-frontend/precache-manifest.64c65cf5d2dbc14c35c7da60e280ef55.js",
     "service-worker.js": "/react-django-jwt-auth-frontend/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/react-django-jwt-auth-frontend/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.0804bf51.chunk.js.LICENSE.txt": "/react-django-jwt-auth-frontend/static/js/2.0804bf51.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.bf16c9c4.js",
     "static/js/2.0804bf51.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.3300540d.chunk.js"
+    "static/js/main.8c99acb6.chunk.js"
   ]
 }
