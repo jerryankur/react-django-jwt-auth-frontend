@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d52dd0f5529d227d1769775a1b50989",
+    "revision": "d925bfeb22b925d0aa1b87da02ea2645",
     "url": "/react-django-jwt-auth-frontend/index.html"
   },
   {
-    "revision": "423b7371e47eccc23679",
+    "revision": "09a754cb7aaca50643c5",
     "url": "/react-django-jwt-auth-frontend/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-django-jwt-auth-frontend/static/js/2.0804bf51.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "423b7371e47eccc23679",
-    "url": "/react-django-jwt-auth-frontend/static/js/main.8c99acb6.chunk.js"
+    "revision": "09a754cb7aaca50643c5",
+    "url": "/react-django-jwt-auth-frontend/static/js/main.54eb2404.chunk.js"
   },
   {
     "revision": "ec076a1a2ac4cbf93c76",
