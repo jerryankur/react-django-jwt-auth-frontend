@@ -1,1 +1,1 @@
-export const HOST = "https://react-django-jwt-auth-backened.df.r.appspot.com/";
+export const HOST = "https://react-django-jwt-auth-backened.azurewebsites.net/";
