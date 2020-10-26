@@ -21,7 +21,7 @@ function Code() {
 										</Media>
 										<p>The ReactJS is used for frontend. Read or fork the code from github. Github link below</p>
 										<div>
-											<a className="btn btn-social-icon btn-github" target="_blank" href="https://github.com/coderpd/react-django-jwt-auth-frontend"><i className="fa fa-github fa-lg"></i></a>
+											<a className="btn btn-social-icon btn-github" rel="noopener noreferrer" target="_blank" href="https://github.com/coderpd/react-django-jwt-auth-frontend"><i className="fa fa-github fa-lg"></i></a>
 										</div>
 									</Media>
 								</Media>
@@ -39,7 +39,7 @@ function Code() {
 										</Media>
 										<p>The Django Framework is used for backend. Read or fork the code from github. Github link below</p>
 										<div>
-											<a className="btn btn-social-icon btn-github" target="_blank" href="https://github.com/coderpd/react-django-jwt-auth-backened"><i className="fa fa-github fa-lg"></i></a>
+											<a className="btn btn-social-icon btn-github" target="_blank" rel="noopener noreferrer" href="https://github.com/coderpd/react-django-jwt-auth-backened"><i className="fa fa-github fa-lg"></i></a>
 										</div>
 									</Media>
 								</Media>

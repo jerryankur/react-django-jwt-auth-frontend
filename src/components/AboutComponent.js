@@ -19,9 +19,9 @@ function About() {
 								</Media>
 								<p>Junior Undergrad, Indian Institute of Information Technology, Design and Manufacturing, Jabalpur</p>
 								<div>
-									<a className="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/jerry.ankur"><i className="fa fa-facebook"></i></a>
-									<a className="btn btn-social-icon btn-linkedin" target="_blank" href="https://www.linkedin.com/in/ankurdwivedi75/"><i className="fa fa-linkedin"></i></a>
-									<a className="btn btn-social-icon btn-instagram" target="_blank" href="https://www.instagram.com/jerry.ankur/"><i className="fa fa-instagram"></i></a>
+									<a className="btn btn-social-icon btn-facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/jerry.ankur"><i className="fa fa-facebook"></i></a>
+									<a className="btn btn-social-icon btn-linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ankurdwivedi75/"><i className="fa fa-linkedin"></i></a>
+									<a className="btn btn-social-icon btn-instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jerry.ankur/"><i className="fa fa-instagram"></i></a>
 									<a className="btn btn-social-icon" href="mailto:ankurdwivedi75@gmail.com"><i className="fa fa-envelope-o"></i></a>
 								</div>
 							</Media>
