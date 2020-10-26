@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0726f3386dac7d42450424aec748969b",
+    "revision": "5ac72c3975123e29bd0448916fc6b02d",
     "url": "/react-django-jwt-auth-frontend/index.html"
   },
   {
-    "revision": "82192798b16488d39b8d",
-    "url": "/react-django-jwt-auth-frontend/static/css/2.40dc0503.chunk.css"
+    "revision": "0d28260f48b759dc1af4",
+    "url": "/react-django-jwt-auth-frontend/static/css/2.9458a9bf.chunk.css"
   },
   {
     "revision": "e89f35580d50fc56943a",
     "url": "/react-django-jwt-auth-frontend/static/css/main.36961ece.chunk.css"
   },
   {
-    "revision": "82192798b16488d39b8d",
+    "revision": "0d28260f48b759dc1af4",
     "url": "/react-django-jwt-auth-frontend/static/js/2.91fe7bb8.chunk.js"
   },
   {
