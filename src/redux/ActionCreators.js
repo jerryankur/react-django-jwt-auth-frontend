@@ -109,7 +109,7 @@ export const verifyUser = (token) => (dispatch) => {
 		.then(response => response.json())
 		.then(response => dispatch(updateUserData(response["username"])))       // to put in database at client side after server side is successfully updated
 		.catch(error => {
-			logOut();
+			dispatch(logOut());
 			alert('You are logged out. Please Login Again');
 		});
 }

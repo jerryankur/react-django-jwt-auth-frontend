@@ -8,6 +8,7 @@ import {
 import { actions } from "react-redux-form";
 import Home from "./HomeComponent";
 import About from "./AboutComponent";
+import Code from "./CodeComponent";
 
 const mapStateToProps = state => {    // convert state to props
 	return {
@@ -49,6 +50,7 @@ class Main extends Component {
 				<Switch>
 					<Route path="/home" component={() => <Home processing={this.props.processing} loggedIn={this.props.loggedIn} username={this.props.username} />} />
 					<Route path="/about" component={About}/>
+					<Route path="/code" component={Code} />
 					<Redirect to="/home" />
 				</Switch>
 			</div>

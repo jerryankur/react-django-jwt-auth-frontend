@@ -1,5 +1,5 @@
 .navbar-dark {
-	background-color: #512DA8;
+	background-color: black;
 }
 
 .process-container {
@@ -16,16 +16,16 @@
 
 .component-body-container {
 	position: relative;
-	top: 75px;
+	margin-top: 75px;
 	border-style: dotted;
 	width: 300px;
 	height: auto;
 	padding: 20px;
-	background-color: antiquewhite;
+	background-color: cornsilk;
 }
 
 .body-wide {
-	top: 50px;
+	margin-top: 50px;
 	width: auto;
 	text-align: left;
 }

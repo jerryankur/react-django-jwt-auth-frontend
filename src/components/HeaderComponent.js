@@ -68,14 +68,19 @@ class Header extends Component {
 				<Navbar dark expand="md">
 					<div className="container">
 						<NavbarToggler onClick={this.toggleNav} />
-						<NavbarBrand className="mr-auto" href="/">
-							<img src={process.env.PUBLIC_URL + '/logo512.png'} height="40" width="40" alt="MY PAGE" />
+						<NavbarBrand className="mr-3" href="/">
+							<img src={process.env.PUBLIC_URL + '/pdicon.png'} height="40" width="40" alt="MY PAGE" />
 						</NavbarBrand>
 						<Collapse isOpen={this.state.isNavOpen} navbar>
 							<Nav navbar>
 								<NavItem>
 									<NavLink className="nav-link" to="/home">
 										<span className="fa fa-home fa-lg"></span> Home
+									</NavLink>
+								</NavItem>
+								<NavItem>
+									<NavLink className="nav-link" to="/code">
+										<span className="fa fa-code fa-lg"></span> Code
 									</NavLink>
 								</NavItem>
 								<NavItem>
@@ -103,14 +108,14 @@ class Header extends Component {
 								</Nav>
 							}
 							{this.props.loggedIn &&
-							<Nav className="ml-auto" navbar>
+							<Nav className="mt-auto ml-auto" navbar>
 								<NavItem>
-									<h5>Hi {this.props.username}</h5>
+									<h5 style={{color: 'azure'}}>Hi {this.props.username}</h5>
 								</NavItem>
 							</Nav>
 							}
 							{this.props.loggedIn &&
-							<Nav className="ml-3" navbar>
+							<Nav className="ml-md-3" navbar>
 								<NavItem>
 									<Button outline onClick={this.props.logOut}>
 										<span className="fa fa-sign-out fa-lg"></span> LogOut
