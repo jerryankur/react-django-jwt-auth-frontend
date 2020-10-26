@@ -1,0 +1,1 @@
+export const baseUrl = "/react-django-jwt-auth-frontend";
