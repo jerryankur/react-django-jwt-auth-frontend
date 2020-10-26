@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-django-jwt-auth-frontend/precache-manifest.87d28f9c9c877de42c46394fa8466829.js"
+  "/react-django-jwt-auth-frontend/precache-manifest.2a97cb960af7792f06fe08896f3ef8f7.js"
 );
 
 self.addEventListener('message', (event) => {

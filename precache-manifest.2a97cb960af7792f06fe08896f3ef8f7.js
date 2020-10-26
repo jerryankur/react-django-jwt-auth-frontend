@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ac72c3975123e29bd0448916fc6b02d",
+    "revision": "bbf20449f5c50581c0a3e664697bac3a",
     "url": "/react-django-jwt-auth-frontend/index.html"
   },
   {
